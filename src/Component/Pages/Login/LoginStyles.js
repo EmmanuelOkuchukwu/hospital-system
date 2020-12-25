@@ -12,6 +12,7 @@ const Form = styled.form`
   width: 25rem;
   height: 18rem;
   border: 1px solid #000;
+  border-radius: 5%;
   text-align: center;
   background-color: ${props => props.theme.NewMidnightBlue};
   h1 {
