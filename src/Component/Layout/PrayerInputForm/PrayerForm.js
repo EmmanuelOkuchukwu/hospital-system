@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import CustomTextfield from '../../Layout/CustomComponents/CustomTextfield';
+import { CustomButton } from '../CommonStyles';
+import SimpleReactValidation from 'simple-react-validator'
 
 class PrayerForm extends Component {
     constructor(props) {
@@ -11,6 +13,7 @@ class PrayerForm extends Component {
         }
         this.formHandler = this.formHandler.bind(this);
         this.onChange = this.onChange.bind(this);
+        this.validator = new SimpleReactValidation();
     }
     onChange = (evt) =>{
         if(evt.target.name === 'prayerRequest') {
@@ -29,6 +32,12 @@ class PrayerForm extends Component {
     }
     formHandler = (evt) => {
         evt.preventDefault();
+        if(this.validator.allValid()) {
+            //TODO: Add logic
+        } else {
+            this.validator.showMessages();
+            this.forceUpdate();
+        }
     }
     render() {
         return(
@@ -40,6 +49,7 @@ class PrayerForm extends Component {
                     placeholder="Your Prayer Request"
                     onChange={this.onChange}
                 />
+                {this.validator.message('prayerRequest', this.state.prayerRequest, 'required|min:10|max:25', {className: 'text-danger'})}
                 <CustomTextfield
                     type="text"
                     name="mainIssues"
@@ -54,6 +64,7 @@ class PrayerForm extends Component {
                     onChange={this.onChange}
                     placeholder="Person of Interest"
                 />
+                <CustomButton onClick={this.formHandler}>Post</CustomButton>
             </div>
         );
     }

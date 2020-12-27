@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b2def19-494b-4f3d-baf5-03c4979a68cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/Layout/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Layout/Footer/FooterStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Layout/Navigation/NavHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Layout/Navigation/NavStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Layout/PrayerInputForm/PrayerForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Layout/Sidebar/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Layout/Sidebar/SidebarStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/History.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Layout/CommonStyles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Pages/Login/LoginStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/Login/LoginStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Layout/PrayerInputForm/PrayerForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Layout/PrayerInputForm/PrayerForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Pages/Panel/Panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/Panel/Panel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Pages/Panel/PanelStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/Panel/PanelStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +40,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="G:\JetBrain\WebStorm 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -78,7 +65,8 @@
       <workItem from="1608630321816" duration="2775000" />
       <workItem from="1608720405369" duration="4537000" />
       <workItem from="1608832049882" duration="4310000" />
-      <workItem from="1608907297369" duration="11105000" />
+      <workItem from="1608907297369" duration="11295000" />
+      <workItem from="1609090749012" duration="6255000" />
     </task>
     <servers />
   </component>
